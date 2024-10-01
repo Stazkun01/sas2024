@@ -8,8 +8,8 @@ int main(){
  printf("please enter the elements : ");
  scanf("%d" , &array[i]);
  }
- for(i = 1 ;i <= ne ;i++){
- s += i;
+ for(i = 0 ;i <= ne ;i++){
+ s += array[i];
  }
  printf("la somme des elements est  : %d " , s);
  return 0;
